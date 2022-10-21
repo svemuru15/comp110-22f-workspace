@@ -29,10 +29,10 @@ if user_word[3] == user_char:
 if user_word[4] == user_char:
     print(user_char + " found at index 4")
     counter = counter + 1
-if counter = 0:
+if counter == 0:
     print("No instances of " + user_char + " found in " + user_word)
 else:
-    if counter = 1:
-        print(counter + " instance of " + user_char + " found in " + user_word)
+    if counter == 1:
+        print(counter, "instance of " + user_char + " found in " + user_word)
     else:
-        print(counter + " instances of " + user_char + " found in " + user_word)
+        print(counter, "instances of " + user_char + " found in " + user_word)
